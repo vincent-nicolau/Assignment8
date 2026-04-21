@@ -4,3 +4,25 @@ GET {{Assignment8_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{Assignment8_HostAddress}}/
+Accept: application/json
+
+###
+GET {{Assignment8_HostAddress}}/person/
+Accept: application/json
+
+###
+GET {{Assignment8_HostAddress}}/movies/
+Accept: application/json
+
+###
+GET {{Assignment8_HostAddress}}/movie/12
+Accept: application/json
+
+###
+GET {{Assignment8_HostAddress}}/movie/1
+Accept: application/json
+
+###
+DELETE {{Assignment8_HostAddress}}/movie/1
+Accept: application/json
